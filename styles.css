@@ -1,0 +1,180 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #e41a1c;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  header .logo img {
+    width: 100px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin-top: 5px;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  /* Hero */
+  .hero {
+    background-color: #f7f7f7;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #e41a1c;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #cta-button {
+    background-color: #e41a1c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #cta-button:hover {
+    background-color: #b71519;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e41a1c;
+  }
+  
+  .about, .history {
+    background-color: #ffffff;
+  }
+  
+  /* Products */
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .product-item {
+    text-align: center;
+    width: 250px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-item h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .product-item p {
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Contact */
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  
+  .contact button {
+    background-color: #e41a1c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .contact button:hover {
+    background-color: #b71519;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .products {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-item {
+      width: 90%;
+    }
+  
+    .product-item img {
+      width: 80%;
+    }
+  }
+  
